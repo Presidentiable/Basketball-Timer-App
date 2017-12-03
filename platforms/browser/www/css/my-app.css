@@ -1,0 +1,85 @@
+.gameBtn, .shotBtn {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.gameBtn:hover {
+    background: linear-gradient(#00ff59, white);
+    color: black;
+}
+
+.shotBtn:hover {
+    background: linear-gradient(#00ff59, white);
+    color: black;
+}
+
+
+header{
+	background: linear-gradient(white, gray);
+}
+
+
+
+h2{
+	font-size: 15px;
+}
+
+.gameBtn{
+	color: black;
+	font-size: 20px;
+	background-color: gray;
+	border:none;
+	border-radius: 5px 5px 5px 5px;
+	padding: 10px 10px 10px 10px;
+	margin: 5px 0px 0px 2px;
+}
+
+.shotBtn{
+	color: white;
+	font-size: 20px;
+	background-color: red;
+	border:none;
+	border-radius: 5px 5px 5px 5px;
+	padding: 10px 10px 10px 10px;
+	margin: 5px 0px 0px 2px;
+}
+
+.Gameclock{
+	width: 250px;
+	font-size: 70px;
+	font-family: 'arial';
+	background: linear-gradient(#D3D3D3, gray);
+	padding: 10px 10px 10px 10px;
+}
+
+.Shotclock{
+	width: 250px;
+	color: white;
+	font-size: 70px;
+	font-family: 'arial';
+	background: linear-gradient(#ff8787, red);
+	padding: 10px 10px 10px 10px;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 3s linear;
+  height: 100px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.page{
+	font-size: 13px;
+}
+
+.h1{
+	font-size: 100px;
+}
+
+.head{
+	background: linear-gradient(white, red);
+}
