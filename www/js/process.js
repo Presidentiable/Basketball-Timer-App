@@ -132,7 +132,7 @@ let btn = <div>
 						<button className="shotBtn" onClick={start}>Start</button>
 						<button className="shotBtn" onClick={stop}>Stop</button>
 						<button className="shotBtn" onClick={reset}>Reset</button>
-						<audio id="buzzer" src="buzzer.mp3"></audio>
+						
 			</center>
 		 </div>	
 
